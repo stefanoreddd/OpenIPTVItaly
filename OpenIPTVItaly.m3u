@@ -34,30 +34,6 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 
 #EXTINF:-1 tvg-chno="9" tvg-id="NOVE.HD..149.it" tvg-name="NOVE HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png", NOVE HD
 #EXTSIZE: Medium
-=======
-#EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-name="Rai 1 HD" tvg-chno="1", Rai 1 HD
-#EXTSIZE: Big
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
-
-#EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-name="Rai 2 HD" tvg-chno="2", Rai 2 HD
-#EXTSIZE: Big
-https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-name="Rai 3 HD" tvg-chno="3", Rai 3 HD
-#EXTSIZE: Big
-https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Rete.4.it" tvg-name="Rete 4 HD" tvg-chno="4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/4-rete4hd.png", Rete 4 HD
-#EXTSIZE: Big
-https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
-
-#EXTINF:-1 tvg-id="Canale.5.it" tvg-name="Canale 5 HD" tvg-chno="5", Canale 5 HD
-#EXTSIZE: Big
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
-
-#EXTINF:-1 tvg-id="Italia.1.it" tvg-name="Italia 1 HD" tvg-chno="6", Italia 1 HD
-#EXTSIZE: Big
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 
 #EXTINF:-1,[7] LA7
 https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
