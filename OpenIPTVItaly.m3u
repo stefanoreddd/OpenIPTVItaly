@@ -1,7 +1,6 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://www.open-epg.com/files/italy1.xml.gz"
 
-#EXTINF:-1 tvg-id="Rai1.it@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png" group-title="",Rai 1 HD
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#EXTINF:-1 tvg-id="Rai 1 HD.it" tvg-name="Rai 1 HD" tvg-chno="6",
 https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8
 
 #EXTINF:-1,[2] Rai 2
