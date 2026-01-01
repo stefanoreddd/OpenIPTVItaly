@@ -26,7 +26,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 
 #EXTINF:-1 tvg-chno="7" tvg-id="LA7.HD.it" tvg-name="LA7 HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/7-la7hd.png", LA7 HD
 #EXTSIZE: Medium
-https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
+https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 
 #EXTINF:-1 tvg-chno="8" tvg-id="TV8.HD.it" tvg-name="TV8 HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/8-tv8hd.png", TV8 HD
 #EXTSIZE: Medium
@@ -35,18 +35,11 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 #EXTINF:-1 tvg-chno="9" tvg-id="NOVE.HD..149.it" tvg-name="NOVE HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png", NOVE HD
 #EXTSIZE: Medium
 
-#EXTINF:-1,[7] LA7
-https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
+#EXTINF:-1 tvg-chno="10" tvg-name="Telenorba" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/10-telenorba.png", Telenorba
+#EXTSIZE: Medium
 
-#EXTINF:-1,[8] TV8
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
-
-#EXTINF:-1,[9] NOVE
->>>>>>> parent of cd08e78 (Added Telenorba - Better Logos)
-https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
-
-#EXTINF:-1,[20] 20
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#EXTINF:-1 tvg-chno="20" tvg-name="20Mediaset HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/20-20hd.png", 20Mediaset HD
+#EXTSIZE: Medium
 https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 
 #EXTINF:-1,[21] Rai 4
@@ -58,10 +51,10 @@ https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/
 https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 
 #EXTINF:-1,[23] Rai 5
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5
+https://raicinque1-live.akamaized.net/hls/live/598318/raicinque1/raicinque1/playlist_ma.m3u8?hdnea=st=1767259081~exp=1767259231~acl=/*~hmac=77d117dc66e0d5c920c1d368fc1f49401a4c011e61045001ce2188bbe195608d
 
 #EXTINF:-1,[24] Rai Movie
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5
+https://streamcdng21-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raimovie1/hls/raimovie_2400/chunklist.m3u8?baseuri=%2Fraimovie1%2Fhls%2F&tstart=0&tend=1767344964&tk2=2783b5257485817baa474ebc59cbecc27b341c38e075f7c0ef5d2148ffe85b36
 
 #EXTINF:-1,[25] Rai Premium
 https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd
