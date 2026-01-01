@@ -110,7 +110,7 @@ https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-chno="31" tvg-id="Real.Time.HD..160.it" tvg-name="Real Time HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtime.png", Real Time HD
+#EXTINF:-1 tvg-chno="31" tvg-id="Real.Time.HD..160.it" tvg-name="Real Time HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png", Real Time HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
@@ -125,12 +125,12 @@ https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 
-#EXTINF:-1 tvg-chno="34" tvg-id="Cine34.it" tvg-name="Cine34 HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/34-cine34.png", Cine34 HD
+#EXTINF:-1 tvg-chno="34" tvg-id="Cine34.it" tvg-name="Cine34 HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/34-cine34hd.png", Cine34 HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-chno="35" tvg-id="Focus.it" tvg-name="FOCUS HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/35-focus.png", FOCUS HD
+#EXTINF:-1 tvg-chno="35" tvg-id="Focus.it" tvg-name="FOCUS HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/35-focushd.png", FOCUS HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
