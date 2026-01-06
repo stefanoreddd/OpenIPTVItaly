@@ -3,7 +3,7 @@ name: Create GitHub Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
@@ -13,20 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Show Release Version
-        run: echo "🚀 Creating GitHub Release for $GITHUB_REF_NAME"
-
-      - name: Extract Changelog for Tag
+      - name: Read Changelog
         id: changelog
-        run: |
-          TAG="${GITHUB_REF_NAME#v}"   # rimuove la "v" iniziale
-          echo "Parsing CHANGELOG.md for tag $TAG..."
-          PATTERN=$(echo "$TAG" | sed 's/\./\\./g')
-          BODY=$(awk "/## \[$PATTERN\]/,/^## /{if(!/^## / && !/\[$PATTERN\]/) print}" CHANGELOG.md)
-          BODY=$(echo "$BODY" | sed '/^[[:space:]]*$/d')
-          echo "body<<EOF" >> $GITHUB_OUTPUT
-          echo "$BODY" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+        uses: mindsers/changelog-reader-action@v2
+        with:
+          version: ${{ github.ref_name }}
+          path: ./CHANGELOG.md
 
       - name: Prepare Playlist Assets
         run: |
@@ -39,7 +31,7 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           name: "OpenIPTVItaly ${{ github.ref_name }}"
-          body: ${{ steps.changelog.outputs.body }}
+          body: ${{ steps.changelog.outputs.changes }}
           files: dist/*
         env:
           GITHUB_TOKEN: ${{ secrets.GH_RELEASE_TOKEN }}
