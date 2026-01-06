@@ -68,6 +68,18 @@ Both playlists are compatible with the following IPTV players:
 
 ---
 
+## 📡 EPG Source
+When available, EPG data is obtained from publicly accessible sources provided by  
+**epgshare01.online**.
+
+The EPG is used for informational purposes only and reflects standard TV scheduling
+data that is already publicly available.
+
+This project does not access private APIs, restricted services, or proprietary
+broadcast systems.
+
+> Note: The **OpenIPTVItaly_No_EPG** playlist does not rely on any EPG source.
+
 ## 🐞 Known Issues and Changelog
 
 The following channels do not currently have an IPTV-compatible stream available and are included **only to preserve correct LCN numbering**:
