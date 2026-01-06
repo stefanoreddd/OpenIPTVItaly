@@ -41,6 +41,7 @@ The playlist follows common IPTV standards:
 ### 🔗 Playlist URL
 
 **Main Playlist (with metadata)**  
+
 Includes full channel metadata and standard playlist structure.
 
 ```
