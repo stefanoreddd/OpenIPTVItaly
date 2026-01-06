@@ -90,7 +90,7 @@ jobs:
           echo "EPG Missing: $EPG_MISSING" >> $REPORT
 
       - name: Upload report artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v6
         with:
           name: iptv-health-report
           path: health_report.txt
