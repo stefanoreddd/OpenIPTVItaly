@@ -17,6 +17,7 @@ jobs:
         id: changelog
         run: |
           TAG="${GITHUB_REF_NAME}"
+          echo "Parsing CHANGELOG.md for tag $TAG..."
           BODY=$(awk "/## \[$TAG\]/,/^## /{if(!/^## /) print}" CHANGELOG.md)
           BODY=$(echo "$BODY" | sed '/^[[:space:]]*$/d')
           echo "::set-output name=body::$BODY"
@@ -28,5 +29,5 @@ jobs:
           name: "OpenIPTVItaly ${{ github.ref_name }}"
           body: ${{ steps.changelog.outputs.body }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_RELEASE_TOKEN }}
 
