@@ -111,15 +111,15 @@ All notable changes are documented in **[CHANGELOG.md](CHANGELOG.md)**.
 
 ## 🤝 Contributing
 
-Contributions are welcome, but **must follow strict rules** to keep the playlist clean and reliable.
+Contributions are welcome and appreciated 💙  
+To keep the playlist clean, legal and reliable, **strict contribution rules apply**.
 
-Before contributing, please read **CONTRIBUTING.md** (to be published).
+- 🐞 Report broken or unstable streams via **Issues**
+- ➕ Propose new **free-to-air & legal** channels
+- 🧩 Improve metadata, logos or documentation
 
-Typical contributions:
-
-* Report broken streams
-* Propose new **free & legal** channels
-* Improve metadata or logos
+Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** before opening an issue or pull request.  
+Issue and Pull Request templates are provided and must be used.
 
 ---
 
