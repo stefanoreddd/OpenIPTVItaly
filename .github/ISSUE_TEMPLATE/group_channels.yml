@@ -1,0 +1,42 @@
+name: "📺 New Channel Group"
+description: "Propose a batch of new channels for the playlist"
+title: "Add new channel group"
+labels: ["channels", "new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Channel Group Proposal**
+        
+        Please provide a batch of channels you want to add. Include as much info as possible for each channel to help review and testing.
+        
+  - type: input
+    id: group_name
+    attributes:
+      label: "Group Name / Description"
+      placeholder: "e.g., Regional channels"
+    required: true
+
+  - type: textarea
+    id: channels
+    attributes:
+      label: "List of Channels"
+      description: "Provide one channel per line in the format: tvg-name | LCN | URL | Optional notes"
+      placeholder: "Rai 1 | 1 | http://example.com/rai1.m3u8 | main national channel"
+    required: true
+
+  - type: input
+    id: tested_players
+    attributes:
+      label: "Tested Players"
+      description: "List the IPTV players where the channels have been tested"
+      placeholder: "VLC, TiviMate, Kodi"
+    required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional Notes"
+      description: "Any additional information or comments"
+      placeholder: "Optional"
+    required: false
