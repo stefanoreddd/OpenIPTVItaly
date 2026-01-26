@@ -7,7 +7,23 @@ and this project follows **Semantic Versioning**.
 
 ---
 
-## [1.0.0] — 2026-01-06
+## [1.1.0] - 2026-01-26
+
+### Added
+- Secondary and thematic Italian TV channels:
+  - ACI Sport TV
+  - BBC Top Gear Italy
+  - Radio Carina TV
+  - Hell's Kitchen Italy
+  - Italian Fishing TV
+  - RaiPlay Sport 1
+  - Euronews IT
+  - Sportitalia Solocalcio HD
+
+### Fixed
+- Updated metadata for existing channels (logos, tvg-id)
+
+## [1.0.0] - 2026-01-06
 
 ### Added
 - First public stable release of **OpenIPTVItaly**
