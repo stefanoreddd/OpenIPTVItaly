@@ -39,7 +39,7 @@ The playlist follows common IPTV standards:
 Includes full channel metadata and standard playlist structure.
 
 ```md
-https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u
+https://raw.githubusercontent.com/stefanoreddd/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u
 ```
 
 ### Minimal Playlist (No EPG)
