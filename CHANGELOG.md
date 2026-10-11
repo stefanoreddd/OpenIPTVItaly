@@ -7,6 +7,21 @@ and this project follows **Semantic Versioning**.
 
 ---
 
+## [1.4.0] - 2026-10-11
+
+### Fixed
+
+- Rai 1 HD
+- TRM H24
+- TeleDehon
+- Rai Premium HD
+- Rai Yoyo HD
+- Rai News 24 HD
+- Italiana
+- Radio TV Serie A
+- BBC Top Gear Italy
+- Radio Carina TV
+
 ## [1.3.0] - 2026-07-18
 
 ### Fixed
